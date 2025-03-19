@@ -1,4 +1,12 @@
 package org.example.DataMatrixDecoding.entity;
 
-public class DmDecoder {
+import com.google.zxing.datamatrix.detector.Detector;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class DmDetector {
+    private Image image;
+    Detector detector;
+
 }
